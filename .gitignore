@@ -1,0 +1,17 @@
+# Ignore massive raw dataset files and archives (> 100MB exceeds GitHub limit)
+student_resource/dataset/
+*.zip
+*.mp4
+
+# Generated large test output files
+output/
+
+# Virtual environments
+.venv/
+.venv311/
+
+# Python cache and OS files
+__pycache__/
+*.pyc
+.DS_Store
+__MACOSX/
